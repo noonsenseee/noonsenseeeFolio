@@ -27,7 +27,7 @@ const greeting = {
     "A passionate Full Stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Django / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=1_AR20kzq7fTiFhBWrZOWmeEuNBYF2SpH", // Set to empty to hide the button
+    "https://drive.google.com/uc?export=download&id=1_TFMPbIHL01V4B4nuCw_Zy9jhbUbwiI1",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
