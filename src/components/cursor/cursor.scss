@@ -1,0 +1,25 @@
+.cursor,
+.cursor-follower {
+  position: fixed;
+  pointer-events: none;
+  border-radius: 100%;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.cursor {
+  width: 12px;
+  height: 12px;
+  background: white;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-follower {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  top: -8px;
+  left: -8px;
+  will-change: transform;
+}

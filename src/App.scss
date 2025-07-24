@@ -1,5 +1,12 @@
 @import "./globalColor";
 
+body {
+  cursor: none; // 👈 hides system mouse
+}
+*, *::before, *::after {
+  cursor: none !important;
+}
+
 .App {
   text-align: center;
   width: 100%;
