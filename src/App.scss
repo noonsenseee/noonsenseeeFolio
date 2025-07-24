@@ -3,7 +3,9 @@
 body {
   cursor: none; // 👈 hides system mouse
 }
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   cursor: none !important;
 }
 
